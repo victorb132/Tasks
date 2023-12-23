@@ -19,9 +19,10 @@
 
     <View
         android:id="@+id/view_description"
+        style="@style/ViewDivider"
+        android:layout_marginTop="8dp"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/edit_description" />
 
     <TextView
@@ -45,6 +46,7 @@
 
     <View
         android:id="@+id/view_complete"
+        style="@style/ViewDivider"
         android:layout_width="0dp"
         android:layout_height="1dp"
         app:layout_constraintEnd_toEndOf="parent"
